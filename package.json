@@ -1,0 +1,19 @@
+{
+  "name": "gdl-hackeando-la-desigualdad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeu-manzo/GDL-Hackeando-La-Desigualdad.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeu-manzo/GDL-Hackeando-La-Desigualdad/issues"
+  },
+  "homepage": "https://github.com/jeu-manzo/GDL-Hackeando-La-Desigualdad#readme"
+}
