@@ -20,6 +20,7 @@ document.getElementById("btn-selectionB").addEventListener("click", showScreenB)
 
 document.getElementById("btn-selectionC").addEventListener("click", showScreenc);
   function showScreenc() {
+      ocultar();
     showAnswer = document.getElementById("content")
     let loginTemplate = String.raw`
     <form>
@@ -32,10 +33,41 @@ document.getElementById("btn-selectionC").addEventListener("click", showScreenc)
         <input type="password" class="form-control" name="password" id="password" />
       </div>
       <div>
-        <input type="button" value="Iniciar sesión" onclick="window.login.loginUser()" />
-        <input type="button" value="Registrar" onclick="window.login.showRegistration()" />
+        <input type="button" value="Iniciar sesión" onclick="profile()" />
+        <input type="button" value="Registrar" onclick= />
       </div>
     </form>
   `;
    showAnswer.innerHTML = loginTemplate;
 };
+
+
+
+function profile() {
+document.getElementById("intro").style.display = "none";
+document.getElementById("content").style.display = "none";
+let nameUser = document.getElementById("name").value;
+ showProfile = document.getElementById("profile")
+    let userTemplate = String.raw `
+    <header id="header">
+    <h3 id= "name-profile">${nameUser}</h3>
+    <h1>hola</h1>
+    <span>
+          <!--icono twitter-->
+          <a href="http://www.twitter.com" target="_blank">
+          <i class="far fa-medal fa-3x"></i>
+          </a>
+        </span>
+
+        <span>
+          <!--icono whatsapp-->
+          <a href="https://web.whatsapp.com/" target="_blank">
+          <i class="far fa-alarm-clock fa-4x"></i>
+          </a>
+        </span>
+
+    </header>
+      `
+  showProfile.innerHTML = userTemplate;
+} 
+
