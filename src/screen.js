@@ -1,0 +1,41 @@
+document.getElementById("btn-selectionA").addEventListener("click", showScreenA);
+function showScreenA() {
+   showAnswer = document.getElementById("content")
+  let template = String.raw`
+     <h3>Todas las personas que vivimos en este mundo somos diferentes, somos únicos y, sin embargo, todos somos iguales porque tenemos los mismos derechos. Pero... ¿Por qué es tan dificil entender a las mujeres? Si alguna vez t e encontraste en una situación en la que al tratar con una mujer</h3>
+    <h3>Esta app te ayudara a tener una mejor relación con las mujeres.</h3>
+    `;
+  showAnswer.innerHTML = template;
+}
+
+document.getElementById("btn-selectionB").addEventListener("click", showScreenB);
+ function showScreenB() {
+    showAnswer = document.getElementById("content")
+  let template = String.raw`
+     <h3>Estas por buen camino pero aún hay cosas que podrias considerar </h3>
+     <h2>¿Te animas a descubrir más?</h2>
+    `;
+  showAnswer.innerHTML = template;
+};
+
+document.getElementById("btn-selectionC").addEventListener("click", showScreenc);
+  function showScreenc() {
+    showAnswer = document.getElementById("content")
+    let loginTemplate = String.raw`
+    <form>
+      <div>
+        <label for="email">Nombre</label>
+        <input type="text" class="form-control" name="name" id="name" />
+      </div>
+      <div>
+        <label for="password">Contraseña</label>
+        <input type="password" class="form-control" name="password" id="password" />
+      </div>
+      <div>
+        <input type="button" value="Iniciar sesión" onclick="window.login.loginUser()" />
+        <input type="button" value="Registrar" onclick="window.login.showRegistration()" />
+      </div>
+    </form>
+  `;
+   showAnswer.innerHTML = loginTemplate;
+};
