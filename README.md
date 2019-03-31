@@ -8,7 +8,7 @@ Esta aplicación web tiene como finalidad crear un espacio de reflexión hacia l
 
 ### Objetivo / Problemática que resuelve
 
-Haciendo nuestra investigación sobre herramientas para la seguridad hacia la mujer, descubrimos que ya existen muchas aplicaciones que contribuyen a la causa, desde botones de pánico, localizadores en tiempo real hasta reportes de eventos de acoso.
+Haciendo nuestra investigación sobre herramientas para la seguridad hacia la mujer, descubrimos que ya existen muchas aplicaciones que contribuyen a la causa, desde botones de pánico, localizadores en tiempo real, hasta reportes de eventos de acoso.
 Entonces, una pregunta nos surgió: ¿cómo podríamos contribuir a la creación de algo distinto de lo que ya existe? pero lo más importante: ¿qué solución podríamos ofrecer para tener un impacto lo suficientemente grande y poder ir resolviendo la violencia de género?
 
 Esta pregunta resultó aún más difícil al obtener nuestros resultados de encuestas. De 45 mujeres que contestaron la encuesta el 91% nos compartió que ha sufrido algún tipo de violencia por parte de un hombre, de 33 hombres encuestados el 42% no estaba seguro de saber si había propiciado un acto violento hacia una mujer, y el 54% considera que el tema de la violencia hacia la mujer está siendo extremizado. El 70% de hombres y mujeres coincidieron en que la educación y concientización ayudaría a minimizar la violencia hacia la mujer.
